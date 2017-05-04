@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>newdropmenu</title>
+  <style>
+    body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td,ins,hr {
+      margin: 0px;
+      padding: 0px;
+      }
+      .nav {
+        font-family: 宋体;
+        font-size: 12px;
+      }
+      .nav>a {
+        display: inline-block;
+        border: 1px solid #ddd;
+        background-color: #eee;
+        width: 50px;
+        height: 28px;
+        text-align: center;
+        line-height: 28px;
+        text-decoration: none;
+        margin-bottom: 1px;
+        border-top: 1px dashed #ddd;
+        color: #000;
+      }
+      .drop-con a {
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #ddd;
+        padding: 0 10px;
+        color: #000;
+        text-decoration: none;
+      }
+      .drop-con a:hover {
+        background-color: #ddd; 
+      }
+      .nav .drop-con a {
+        border-bottom: none;
+      }
+      .nav .drop-con li:last-child a{
+        border-bottom: 1px solid #ddd;
+      }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="#">按钮</a>
+    <ul class="drop-con">
+      <li><a href="#">下拉菜单项1</a></li>
+      <li><a href="#">下拉菜单项2</a></li>
+      <li><a href="#">下拉菜单项3</a></li>
+      <li><a href="#">下拉菜单项4</a></li>
+    </ul>
+  </div>
+</body>
+</html>
